@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+$font-family-base: 'Roboto', sans-serif;
+
+@import "bootstrap/scss/bootstrap.scss";
+
 body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,5 +26,3 @@ body {
   padding: 5px;
   border: 1px solid #1d2f2f;
 }
-
-@import "bootstrap/scss/bootstrap.scss";
